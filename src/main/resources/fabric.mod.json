@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "warm_ice",
+  "version": "${version}",
+  "name": "Warm Ice",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Leo Bulatewicz/Warm Ice"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/warm_ice/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "whirlpool.warm_ice.client.WarmIceClient"
+    ],
+    "main": [
+      "whirlpool.warm_ice.WarmIce"
+    ]
+  },
+  "mixins": [
+    "warm_ice.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
