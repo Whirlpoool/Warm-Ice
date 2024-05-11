@@ -4,8 +4,7 @@ import net.minecraft.block.IceBlock;
 
 public class WarmIceBlock extends IceBlock {
 
-    public WarmIceBlock(Settings settings) {
-        super(settings);
+    public WarmIceBlock(Settings settings) {super(settings);
     }
 }
 
